@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="task.css" />
+    <script src="https://kit.fontawesome.com/d1f6e25214.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="q.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>               
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>Hi, I'm <span>Hema</span><br />Priya from India</h1>
+        </div>
+      </div>
+    </div>
+    <!--------------about------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="u.png" >
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I'm a passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, dedicated to crafting pixel-perfect, responsive web experiences.
+              My work focuses on user-centric design, ensuring intuitive and engaging interactions.
+              I constantly explore new technologies and trends, turning complex problems into elegant solutions. 
+              When I'm not coding, I dive into design inspiration and contribute to open-source projects. 
+              Let's build something amazing together!</p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>HTML/CSS</span><br> Mastery in HTML and CSS is essential for crafting responsive and accessible web pages that are both structured and visually appealing.</li>
+                  <li><span>JavaScript</span><br>Proficiency in JavaScript, including ES6+, is key for developing dynamic, interactive features in modern web applications.</li>
+                  <li><span>React.js</span><br> Expertise in React.js (or similar frameworks) is vital for building scalable, component-based applications with efficient state management and smooth user experiences.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Education">
+                <ul>
+                  <li><span>2022</span><br> Mtech Integrated in Software Engineering at VIT,Vellore</li>
+                </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--------------Services------------->
+        <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating websites that automatically adjust and look great on all devices, from desktops to mobile phones, ensuring a seamless user experience.</p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                <h2>Website Optimization</h2>
+                <p>Improving website performance by optimizing images, minimizing code, and implementing lazy loading to reduce load times and enhance the user experience.
+                </p>
+                <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Custom CSS Frameworks</h2>
+                <p>Developing custom CSS frameworks or utilizing existing ones like Bootstrap or Tailwind CSS to create consistent, modular, and reusable styles for projects.</p>
+                <a href="#">Learn more</a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!--------------Portfolio------------->
+        <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                  <h3>Socila Media App</h3>
+                  <p>The app connects you with the talented people around the world.
+                    Download it from play store.
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                  <h3>Music App</h3>
+                  <p>The app connects you with the talented people around the world.
+                    Download it from play store.
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </p>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                  <h3>Online Shopping App</h3>
+                  <p>The app connects you with the talented people around the world.
+                    Download it from play store.
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+          </div>
+        </div>
+        
+          <!--------------Contact------------->
+          <div id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>
+                  <p><i class="fa-solid fa-paper-plane"></i>hemavenkatraman2426@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i>86100171768</p>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/hema-priya-b02a91288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hema_priya2624?igsh=NGVhN2U2NjQ0Yg==" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                  </div>
+                  <a href="CV.pdf" class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+                  <span id="msg"></span>
+        
+                </div>
+              </div>
+            </div>
+            <div class="copyrigth">
+              <p>Copyright © Hema<i class="fa-solid fa-heart"></i></p>
+            </div>
+          </div>
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname)
+  {
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+  }
+</script>
+
+
+<script> 
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxu8Q35jhWEE1hBixYEojliU7S0x2BnsIzg30Co_pMeVEnkrKgyGN5fIO7jBFcBDPrw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
